@@ -1,0 +1,26 @@
+{
+  "name": "Oh! Media Tools",
+  "short_name": "OM Tools",
+  "description": "Oh! Media internal tools: Instagram Maker, Reels & TikTok Video, Carousel Maker and Featured Maker.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "background_color": "#f4f4f5",
+  "theme_color": "#d00522",
+  "lang": "ms",
+  "categories": ["productivity", "photo", "social"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Instagram Maker", "url": "instagram.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "IG Reels & TikTok Video", "short_name": "Reels Video", "url": "reels.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Carousel Maker", "url": "carousel.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Featured Maker", "url": "featured.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
